@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JavaCard">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/JavaCard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

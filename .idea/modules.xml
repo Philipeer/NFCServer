@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/HelloWorld.iml" filepath="$PROJECT_DIR$/.idea/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld - DES - JAVACARD/HelloWorldJavaCardTerminal/HelloWorldJavaCardTerminal.iml" filepath="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/HelloWorldJavaCardTerminal/HelloWorldJavaCardTerminal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/JavaCard.iml" filepath="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/JavaCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2.iml" filepath="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2.iml" />
+    </modules>
+  </component>
+</project>

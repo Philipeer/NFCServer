@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="java_card_kit-2_2_2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-specs.zip!/" />
+      <root url="jar://$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-docs-do.zip!/" />
+      <root url="jar://$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do.zip!/" />
+      <root url="jar://$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-ant-tasks.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

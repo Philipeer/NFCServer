@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="JavaCard" default="build" basedir=".">
+    <!-- properties file -->
+    <property file="common.properties"/>
+
+    <!-- prepares the environment by creating the necessary directories and downloading the dependencies -->
+    <target name="environment">
+        <mkdir dir="${env.directory.bin}"/> <!-- gp.jar -->
+        <mkdir dir="${env.directory.lib}"/> <!-- ant-javacard.jar -->
+        <mkdir dir="${env.directory.out}"/> <!-- output directory (intermediate files) -->
+        <mkdir dir="${env.directory.logs}"/> <!-- logs directory -->
+
+        <!-- used to build the application -->
+        <get src="https://github.com/martinpaljak/ant-javacard/releases/latest/download/ant-javacard.jar" dest="${env.directory.lib}/" skipexisting="true"/>
+        <taskdef name="javacard" classname="pro.javacard.ant.JavaCard" classpath="${env.directory.lib}/ant-javacard.jar"/>
+
+        <!-- used to install the application -->
+        <get src="https://github.com/martinpaljak/GlobalPlatformPro/releases/latest/download/gp.jar" dest="${env.directory.bin}/" skipexisting="true"/>
+    </target>
+
+    <!-- builds the application -->
+    <target name="build" depends="environment">
+        <javacard jckit="${jc.home}">
+            <cap aid="${jc.package.AID}" version="${jc.package.version}" output="${jc.package.name}" sources="src/" classes="${env.directory.out}/classes/" export="${env.directory.out}/">
+                <applet aid="${jc.applet.AID}" class="javacardapp.MainApp"/>
+            </cap>
+        </javacard>
+    </target>
+
+    <!-- installs the application -->
+    <target name="install" depends="build">
+       
+        <exec executable="java">
+            <redirector output="${env.directory.logs}/${log.timestamp}_log.txt" alwayslog="true"/>
+            <arg line="-jar ${env.directory.bin}/${gp.cmd}"/>
+            <arg line="--delete ${jc.applet.AID}"/> <!-- delete applet -->
+            <arg line="--delete ${jc.package.AID}"/> <!-- delete package -->
+            <arg line="--install ${jc.package.name}"/> <!-- install application -->
+            <arg line="--info --verbose --debug"/> <!-- info + verbose + debug -->
+        </exec>
+    </target>
+
+    <!-- cleans the environment -->
+    <target name="clean">
+        <delete dir="${env.directory.bin}"/>
+        <delete dir="${env.directory.lib}"/>
+        <delete dir="${env.directory.out}"/>
+        <delete>
+            <fileset dir="." includes="*.cap"/>
+        </delete>
+    </target>
+</project>

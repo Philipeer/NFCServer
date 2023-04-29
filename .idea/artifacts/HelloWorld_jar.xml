@@ -1,0 +1,39 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HelloWorld:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HelloWorld_jar</output-path>
+    <root id="archive" name="HelloWorld.jar">
+      <element id="module-output" name="java_card_kit-2_2_2" />
+      <element id="module-output" name="JavaCard" />
+      <element id="module-output" name="HelloWorldJavaCardTerminal" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/apduio.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/jcrmiclientframework.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/jcwde.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/jcclientsamples.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/javacardframework.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/offcardverifier.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/capdump.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/apdutool.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/converter.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/jcwde_16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/installer.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/ant-javacard.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/api_16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/dist/lib/scriptgen.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/jcclientsamples.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/jcrmiclientframework.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/apdutool.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/jcwde.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/offcardverifier.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/capdump.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/api_16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/apduio.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/jcwde_16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/javacardframework.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/installer.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/converter.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/HelloWorld - DES - JAVACARD/JavaCard/java_card_kit-2_2_2/java_card_kit-2_2_2-rr-bin-windows-do/lib/scriptgen.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
